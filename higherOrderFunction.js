@@ -3,14 +3,6 @@ const interView=(name)=>{
         return function(topic){
             console.log(`hallo ${name}.What is  ${topic}?,please explain me.....?`)
         }
-    }if (name==="panwar"){
-        return function(topic){
-            console.log(`hallo ${name}.What is  ${topic}?,please explain me.....?`)
-        }
-    }if (name==="javascript"){
-        return function(topic){
-            console.log(`hallo ${name}.What is  ${topic}?,please explain me.....?`)
-        }
     }else{
         return function (){
             console.log("Wellcome to Interview"); 
